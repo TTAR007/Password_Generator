@@ -14,11 +14,11 @@
         <fieldset>
             <!-- <legend>What would you like to include:</legend> -->
             <p>
-                <input type="checkbox" name="letter" id="uppercase">
+                <input type="checkbox" name="uppercase letter" id="uppercase">
                 <label for="uppercase">uppercase: A-Z</label>
             </p>
             <p>
-                <input type="checkbox" name="letter" id="lowercase">
+                <input type="checkbox" name="lowercase letter" id="lowercase">
                 <label for="lowercase">lowercase: a-z</label>
             </p>
             <p>
@@ -30,8 +30,17 @@
                 <label for="special-char">special characters: !@#$%&*()</label>
             </p>
         </fieldset>
-        <button type="button">Generate</button>
+
+        <div class="password-length_box">
+            <label for="password-length">length</label>
+            <input type="number" name="password length" id="password-length">
+        </div>
+
+        <p id="generated-password"></p>
+        
+        <button type="button" onclick="start()">Generate</button>
     </main>
 
+    <script src="app.js"></script>
 </body>
 </html>

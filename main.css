@@ -29,7 +29,6 @@ h1 {
 p {
     display: flex;
     align-items: start;
-    font-size: 1.125rem;
     padding-inline-start: 8px;
 }
 
@@ -48,6 +47,19 @@ input[type="checkbox"] {
 
 label {
     padding-inline-start: 4px;
+    font-size: 1.125rem;
+}
+
+.password-length_box {
+    margin-block: 1rem;
+}
+
+#password-length {
+    padding: 8px;
+}
+
+#generated-password {
+    background-color: white;
 }
 
 button {
